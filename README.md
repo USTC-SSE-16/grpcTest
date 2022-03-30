@@ -20,5 +20,5 @@ cmd
   ## 2.2  go install -u github.com/golang/protobuf/protoc-gen-go@lastest
 # 3
   ## 3.1  protoc --go_out=plugins=grpc:chat chat.proto
-  ## 3.2
+  ## 3.2  protoc --go_out=plugins=grpc:. ./*.proto     
 
