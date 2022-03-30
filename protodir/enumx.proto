@@ -1,0 +1,10 @@
+// file enumx.proto
+syntax = "proto3";
+
+package demo1;
+option go_package = "github.com/wymli/bc_sns/dep/pb/go/enumx;enumx";
+
+enum E {
+  E_UNSPECIFIED = 0;
+  FILE = 1;
+}

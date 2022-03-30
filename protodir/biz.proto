@@ -1,0 +1,11 @@
+// file biz.proto
+syntax = "proto3";
+
+package demo2;
+// 这里的option go_package其实可以随便写,因为不会被别人引用,不过还是按规范来吧
+option go_package = "github.com/wymli/bc_sns/dep/pb/go/biz;biz";
+import "enumx.proto";
+
+message S {
+  demo1.E content_type = 1;
+}
