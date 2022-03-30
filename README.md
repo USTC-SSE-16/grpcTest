@@ -1,9 +1,15 @@
 go version 1.15
+
 refer to web list :
+
 https://github.com/protocolbuffers/protobuf-go
+
 https://developers.google.com/protocol-buffers/docs/gotutorial
+
 https://github.com/protocolbuffers/protobuf
+
 https://github.com/protocolbuffers/protobuf/tree/main/examples
+
 https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go
 
 
