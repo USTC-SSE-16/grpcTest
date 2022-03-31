@@ -6,7 +6,8 @@ package  test;
 // 指定输出 go 语言的源码到哪个目录以及文件名称
 // 最终在 test.proto 目录生成 test.pb.go
 // 也可以只填写 "./"
-option go_package = "./;test";
+//option go_package = "./client/test;test";
+option go_package = "./server/test;test";
 
 // 如果要输出其它语言的话
 // option csharp_package="MyTest";
